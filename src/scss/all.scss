@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Noto+Serif+TC:wght@200;300;400;500;600;700&display=swap');
+
+@import "_media-breakpoint.scss";     
+@import "_reset.scss";
+@import "_vendors.scss";
+
+@import "_variables.scss";
+@import "_utility.scss";
+@import "_components.scss";
+
+
+
+@import "_pages.scss";
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #227093;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

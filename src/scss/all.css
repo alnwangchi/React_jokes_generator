@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Noto+Serif+TC:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: 'URW DIN','Noto Sans TC', sans-serif;
+  line-height: normal;
+}
+
+html.over_hidden, body.over_hidden, div.over_hidden, span.over_hidden, applet.over_hidden, object.over_hidden, iframe.over_hidden,
+h1.over_hidden, h2.over_hidden, h3.over_hidden, h4.over_hidden, h5.over_hidden, h6.over_hidden, p.over_hidden, blockquote.over_hidden, pre.over_hidden,
+a.over_hidden, abbr.over_hidden, acronym.over_hidden, address.over_hidden, big.over_hidden, cite.over_hidden, code.over_hidden,
+del.over_hidden, dfn.over_hidden, em.over_hidden, img.over_hidden, ins.over_hidden, kbd.over_hidden, q.over_hidden, s.over_hidden, samp.over_hidden,
+small.over_hidden, strike.over_hidden, strong.over_hidden, sub.over_hidden, sup.over_hidden, tt.over_hidden, var.over_hidden,
+b.over_hidden, u.over_hidden, i.over_hidden, center.over_hidden,
+dl.over_hidden, dt.over_hidden, dd.over_hidden, ol.over_hidden, ul.over_hidden, li.over_hidden,
+fieldset.over_hidden, form.over_hidden, label.over_hidden, legend.over_hidden,
+table.over_hidden, caption.over_hidden, tbody.over_hidden, tfoot.over_hidden, thead.over_hidden, tr.over_hidden, th.over_hidden, td.over_hidden,
+article.over_hidden, aside.over_hidden, canvas.over_hidden, details.over_hidden, embed.over_hidden,
+figure.over_hidden, figcaption.over_hidden, footer.over_hidden, header.over_hidden, hgroup.over_hidden,
+menu.over_hidden, nav.over_hidden, output.over_hidden, ruby.over_hidden, section.over_hidden, summary.over_hidden,
+time.over_hidden, mark.over_hidden, audio.over_hidden, video.over_hidden {
+  overflow: hidden;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  margin: 0 auto;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:visited {
+  color: #000;
+}
+
+/* mixin */
+.question_box {
+  min-width: 360px;
+  max-width: 720px;
+  min-height: 240px;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.question_box h1 {
+  font-weight: 900;
+  color: #34ace0;
+  font-size: 2rem;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #227093;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=all.css.map */

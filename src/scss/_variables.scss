@@ -1,0 +1,8 @@
+/* mixin */
+@mixin textLimit($number) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: $number;
+    -webkit-box-orient: vertical;
+}

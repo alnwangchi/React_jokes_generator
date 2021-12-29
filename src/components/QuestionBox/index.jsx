@@ -24,7 +24,7 @@ const QuestionBox = () => {
       <h1>Allen's Joke Generator !!!</h1>
       {/* <p>{joke === '' ? 'No Jokes Here Now!' : joke }</p> */}
       <p dangerouslySetInnerHTML={{__html: joke}} />
-      <Button variant="contained" onClick={getJokes}>Contained</Button>
+      <Button variant="contained" onClick={getJokes}>產生 🤩</Button>
     </div>
   );
 }
